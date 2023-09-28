@@ -1,0 +1,55 @@
+.card {
+    background-color: transparent;
+    perspective: 1000px;
+    position: absolute;
+    display: inline-block;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card.invisible {
+    display: none;
+}
+
+.card-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.card.flip-card-Y .card-container {
+    transform: rotateY(180deg);
+}
+
+.card.flip-card-X .card-container {
+    transform: rotateX(180deg);
+}
+  
+/* Position the front and back side */
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+  
+/* Style the back side */
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.dropPosition {
+    position: absolute;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}

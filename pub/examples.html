@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>JS Libraries</title>
+
+    <link rel="stylesheet" type="text/css" href='styles.css'>
+    <link rel="stylesheet" type="text/css" href='examples.css'>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer type="text/javascript" src='card-library.js'></script>
+    <script defer type="text/javascript" src='examples.js'></script>
+
+
+</head>
+
+<body>
+    <div class="page">
+        <div class="topnav">
+            <a href="examples_homepage.html">card.js</a>
+            <a href="examples.html">Examples</a>
+            <a href="api.html">Api</a>
+        </div>
+        
+        <h1>Examples</h1>
+        <div class="description" id="dragAndDrop"> 
+            <h2>Basic Functionalities</h2>
+            <h3>Click to flip, drag objects and drop to dotted lines, and swap positions</h3>
+            Get card id of the card by clicking to flip the card!!
+            <form id='swapCardsForm'>
+                <input id='swapID1' type="text" placeholder="card ID 1">
+                <input id='swapID2' type="text" placeholder="card ID 2">
+                <input type="submit" value="Swap Cards">
+            </form>
+            <div id="basic-example">
+
+            </div>
+
+        </div>
+        <div class="description" id="dragAndDrop"> 
+            <h2>Animations</h2>
+            <h3>Move and rotate card objects at desired speed to create animations</h3>
+            <button id="hop">Hop!</button>
+            <div id="animation-example">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
