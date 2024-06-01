@@ -8,8 +8,11 @@ Some of the user interactive features supported are: hovering, flipping, rotatin
 When the user hovers over the card object, the developer can choose how the card reacts to it such as creating a shadow behind the card, changing the colour, or zooming in or out. 
 The flipping feature allows the developer to choose the direction of the object flipping (vertically up, down, horizontally left, right) and speed of the flip motion. The developer can also allow users to rotate and move the card object within their web app.
 ## Example
-![plot](./pub/examlple1.gif)
-![plot](./pub/examlple2.gif)
+
+![plot](./pub/example1.gif)
+
+
+![plot](./pub/example2.gif)
 
 ## API
 
