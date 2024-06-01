@@ -1,5 +1,17 @@
+# Card Library
+The main purpose of this library is to create user-interactive card objects.
 
-## Api Methods
+Cards are rectangular objects (often with round edges) that are fairly easy to create. However, even though it may be easy to create this simple shape, adding animations or user interactive features is a different story. Therefore, this library allows developers to easily create cards of different sizes and add various features.
+
+Some of the user interactive features supported are: hovering, flipping, rotating, moving, dragging and dropping the object, and swapping the positions of the two objects.
+
+When the user hovers over the card object, the developer can choose how the card reacts to it such as creating a shadow behind the card, changing the colour, or zooming in or out. 
+The flipping feature allows the developer to choose the direction of the object flipping (vertically up, down, horizontally left, right) and speed of the flip motion. The developer can also allow users to rotate and move the card object within their web app.
+## Example
+![plot](./pub/examlple1.gif)
+![plot](./pub/examlple2.gif)
+
+## API
 
 <h3>Getting Started</h3>
 
